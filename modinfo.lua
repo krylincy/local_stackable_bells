@@ -1,6 +1,6 @@
 name = "Stackable Shell Bells"
 author = "krylincy"
-version = "1.0"
+version = "1.1"
 description = [[
 
 Version: ]]..version

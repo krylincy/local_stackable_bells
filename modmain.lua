@@ -17,10 +17,10 @@ end
 local function singingshell (inst)	
 	if inst.components ~= nil and inst.components.workable ~= nil then
 		inst:AddComponent("stackable")
-		inst.components.stackable.maxsize = stackSize
+		--inst.components.stackable:SetMaxSize(stackSize)
 		
 		inst.components.workable:SetOnFinishCallback(onHammerFn)
-	end
+	end	
 end
 
 AddPrefabPostInit("singingshell_octave3", singingshell)
